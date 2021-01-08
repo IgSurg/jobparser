@@ -7,10 +7,10 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'jobparser'
+BOT_NAME = 'jobparser7'
 
-SPIDER_MODULES = ['jobparser.spiders']
-NEWSPIDER_MODULE = 'jobparser.spiders'
+SPIDER_MODULES = ['jobparser7.spiders']
+NEWSPIDER_MODULE = 'jobparser7.spiders'
 
 LOG_ENABLED = True
 LOG_LEVEL = 'DEBUG' #ERROR INFO DEBUG
@@ -66,7 +66,7 @@ COOKIES_ENABLED = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'jobparser.pipelines.JobparserPipeline': 300,
+   'jobparser7.pipelines.JobparserPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
